@@ -1,0 +1,34 @@
+{
+    "name": "",
+    "css_prefix_text": "icon-",
+    "css_use_suffix": false,
+    "hinting": true,
+    "units_per_em": 1000,
+    "ascent": 850,
+    "glyphs": [
+        {
+            "uid": "acf41aa4018e58d49525665469e35665",
+            "css": "thumbs-up",
+            "code": 59394,
+            "src": "fontawesome"
+    },
+        {
+            "uid": "ab656e280958018a7859eba9a1eabbc7",
+            "css": "award",
+            "code": 59395,
+            "src": "fontawesome"
+    },
+        {
+            "uid": "28f308aa0a07a67433f54c089c400d82",
+            "css": "gift",
+            "code": 59392,
+            "src": "fontawesome"
+    },
+        {
+            "uid": "7f3d8ff1d5f6ee019f0c00ed7a86caec",
+            "css": "truck",
+            "code": 59393,
+            "src": "fontawesome"
+    }
+  ]
+}
