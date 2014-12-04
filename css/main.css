@@ -11,8 +11,8 @@
 a {
     cursor: pointer;
 }
-img {
-    width: 100
+.modal-content img {
+    width: 100%
 }
 #top-header {
     background: #fff;
@@ -36,7 +36,7 @@ img {
     text-align: left;
 }
 .price {
-    font-size: 36px;
+    font-size: 33px;
     margin-top: 2px;
     font-weight: 700;
 }
@@ -54,6 +54,10 @@ img {
     color: #ecf0f1;
     margin-bottom: 20px;
 }
+.nav-pills{
+    font-size: 18px;
+    font-weight: 600;
+}
 .nav-pills a {
     color: #000;
 }
@@ -64,7 +68,7 @@ img {
     font-weight: 700;
     background-color: #df6a78;
 }
-.product {
+.product, .container-filter {
     background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 20px;
@@ -74,6 +78,9 @@ img {
     padding: 15px;
 }
 .modal-content h2{
+    text-align: center;
+}
+.button-cart{
     text-align: center;
 }
 #Container .mix {
