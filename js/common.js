@@ -1,5 +1,7 @@
+
 $(function(){
-    $('#Container').mixItUp();  
+    $('#Container').mixItUp(); 
+
 });
 (function () {
 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+<link rel="stylesheet" href="out/bundle.min.css">
+</head>
+
+<body>
+    <div id="container">
+        
+    </div>
+    
+    <script id="product" type="text/x-handlebars-template">
+    {{#each product}}
+  <div class="col-md-4 mix {{category}}">
+        <div class="thumbnail item item">
+            <a href="#" data-toggle="modal" data-target=".{{data-target}}">
+                <img src="images/{{image-name}}.jpg" alt="{{name-modal}}" width="300" height="300" class="img-circle">
+            </a>
+            <div class="caption">
+                <h3 class="text-center"><a href="#" data-toggle="modal" data-target=".{{data-target}}">{{name}}</a></h3>
+            </div>
+
+            <div class="modal fade {{data-target}}" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
+                        </button>
+                        <div class="col-md-12">
+                            <h2>{{name-modal}}</h2>
+                        </div>
+                        <div class="col-md-6 ">
+                            <img src="images/{{img-modal}}.jpg" alt="{{name-moda}}">
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Тип чая - {{type}}</li>
+                                <li>Кофеин - {{caffeine}}</li>
+                                <li>Производство - {{production}}</li>
+                            </ul>
+                            <ul>
+                                <li>{{weight}}</li>
+                            </ul>
+                            <p>{{description}}</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 price text-left">{{price}} руб.</div>
+                            <div class="col-md-2">
+                                <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Фэн Хуан Дань Цун" data-price="{{price}}" data-quantity="1">&nbsp; В корзину&nbsp;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/handlebars-v2.0.0.js"></script>
+    <script>
+    (function () {
+    
+    var container = $('#container');
+    
+    $.ajax({
+        url: 'data.json'
+    }).done(function(data){
+
+        var json = JSON.parse(data),
+            source   = $("#product").html(),
+            template = Handlebars.compile(source),
+            html    = template(json);
+
+        container.append(html);        
+    })
+
+})()
+    </script>
+    
+</body>
+
+</html>
