@@ -1,1323 +1,1381 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hao Cha - просто хороший чай.</title>
-    <meta name="keywords" content="Китайский чай, пуэр, улун, Да Хун Пао, Тегуаньинь, белый чай, зелёный чай">
-    <meta name="description" content="Интернет-магазин китайского чая с доставкой по всей России. Весь товар всегда в наличии.">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="out/bundle.min.css">
-    <meta name='yandex-verification' content='4b494d0071201d97' />
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hao Cha - просто хороший чай.</title>
+	<meta name="keywords" content="Китайский чай, пуэр, улун, Да Хун Пао, Тегуаньинь, белый чай, зелёный чай">
+	<meta name="description" content="Интернет-магазин китайского чая с доставкой по всей России. Весь товар всегда в наличии.">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="out/bundle.min.css">
+	<meta name='yandex-verification' content='4b494d0071201d97' />
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
-    <header>
-        <!--Шапка с корзиной-->
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
-            <div id="top-header">
-                <div class="container">
-                    <div class="row">
-                        <div class=" col-md-4   text-left">
-                            <a href="http://tea-geek.tk/" target="_blank">Наш блог</a>
-                        </div>
-                        <div class=" col-md-4 text-center">
-                            Бесплатная доставка при заказе от 3000 руб
-                        </div>
-                        <div class=" col-md-4   text-right">
-                            <a class="cart-button">
-                                <span class="glyphicon glyphicon-shopping-cart shopping-cart "></span>
-                                <span class="cart-button-quantity"></span>
-                                <span class="cart-button-label"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <!--Логотип-->
-        <div class="container">
-            <div class="row mid-header">
-                <div class="col-md-6 text-left logo">
-                    <a href="/">
-                        <img src="images/logo.png" width="300" alt="Нао Cha-магазин китайчкого чая">
-                    </a>
-                </div>
-                <div class="col-md-6 tel telephone text-right">
-                    <span class="glyphicon glyphicon-phone-alt"></span>&#160; &#160;<a class="phone-link" href="tel:+79057274650">+7 (905) 727-46-50</a> 
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid sales">
-            <div class="col-md-12 text-center">
-                <span class="glyphicon glyphicon-gift"></span>&nbsp;&nbsp;При заказе от 2500руб. - стеклянный чайник в подарок!!!&nbsp;&nbsp;<span class="glyphicon glyphicon-gift"></span>
-            </div>
-        </div>
+	<header>
+		<!--Шапка с корзиной-->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
+			<div id="top-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4   text-left">
+							<a href="http://tea-geek.tk/" target="_blank">Наш блог</a>
+						</div>
+						<div class=" col-md-4 text-center">
+							Бесплатная доставка при заказе от 3000 руб
+						</div>
+						<div class=" col-md-4   text-right">
+							<a class="cart-button">
+								<span class="glyphicon glyphicon-shopping-cart shopping-cart "></span>
+								<span class="cart-button-quantity"></span>
+								<span class="cart-button-label"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!--Логотип-->
+		<div class="container-fluid logo-container">
+			<div class="row mid-header">
+				<div class="col-md-6 col-md-offset-3 text-center logo">
+					<a href="/">
+						<img src="images/logo.png" width="300" alt="Нао Cha-магазин китайчкого чая">
+					</a>
+				</div>
+				<div class="col-md-6 col-md-offset-3 tel telephone text-center">
+					<span class="glyphicon glyphicon-phone-alt"></span>&#160; &#160;<a class="phone-link" href="tel:+79057274650">+7 (905) 727-46-50</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid sales">
+			<div class="col-md-12 text-center">
+				<span class="glyphicon glyphicon-gift"></span>&nbsp;&nbsp;При заказе от 2500руб. - стеклянный чайник в подарок!!!&nbsp;&nbsp;<span class="glyphicon glyphicon-gift"></span>
+			</div>
+		</div>
+	</header>
+	<!--О нас-->
+	<div class="container about">
+		<div class="row">
+			<div class="col-md-12 title text-center">
+				<h1>Магазин китайского чая</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p>Мы рады представить в нашем магазине великолепный выбор настоящего китайского чая на любой вкус: пуэр, улуны, красный чай, а также элитный белый чай. Наравне с опытными ценителями китайской чайной традиции вы можете ощутить все богатство и пользу чая, собранного со всех уголков Китая. Мы сотрудничаем только с проверенными поставщиками чая из Китая, что делает цены более привлекательными и доступными. Наш магазин китайского чая позаботился о том, чтобы купить чай было максимально просто и удобно.</p>
+			</div>
+		</div>
+	</div>
+	<!--Фичи-->
+	<div class="container features hidden-sm hidden-xs">
+		<div class="row">
+			<div class="col-md-3 text-center">
+				<div class="thumbnail feature">
+					<img src="./images/present.png" alt="Подарки">
+					<div class="caption">
+						<h4>Подарки</h4>
+						<p>С каждым заказом, а также скидки постоянным покупателям.
+							<br/>
+							<br/>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="thumbnail feature">
+					<img src="./images/trophy.png" alt="Качество">
+					<div class="caption">
+						<h4>Качество</h4>
+						<p>Только натуральный чай без ароматизаторов от проверенных поставщиков.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="thumbnail feature">
+					<img src="./images/recycle.png" alt="Экологичная упаковка">
+					<div class="caption">
+						<h4>Экологичная упаковка</h4>
+						<p>Мы используем в нашей упаковке только натуральные материалы.
+							<br/>
+							<br/>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="thumbnail feature">
+					<img src="images/dolly.png" alt="Доставка">
+					<div class="caption">
+						<h4>Доставка</h4>
+						<p>От 300р в пределах МКАД. Самовывоз от метро Бульвар Дмитрия Донского - бесплатно.
+							<br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Продукция-->
+	<div class="container container-filter">
+		<ul class="nav nav-pills">
+			<li class="filter" data-filter="all">
+				<a>Все</a>
+			</li>
+			<li class="filter" data-filter=".category-1">
+				<a>Улуны</a>
+			</li>
+			<li class="filter" data-filter=".category-2">
+				<a>Белый чай</a>
+			</li>
+			<li class="filter" data-filter=".category-3">
+				<a>Красный чай</a>
+			</li>
+			<li class="filter" data-filter=".category-4">
+				<a>Пуэр Шу</a>
+			</li>
+			<li class="filter" data-filter=".category-5">
+				<a>Пуэр Шен</a>
+			</li>
+			<li class="filter" data-filter=".category-6">
+				<a>Зелёный чай</a>
+			</li>
+			<!-- <li class="filter" data-filter=".category-7">
+	<a></a>
+   </li> -->
+		</ul>
+	</div>
+	<!-- <section class="container product" id="Container"> -->
+	<div class="container product" id="Container">
+		<div class="row">
+			<div class="col-md-4 mix category-1">
+				<div class="thumbnail item item">
+					<a href="#" data-toggle="modal" data-target=".phdc">
+						<img src="images/pdc.jpg" alt="Фэн Хуан Дань Цун" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Фэн Хуан Дань Цун<br>(Чаочжоу Ча)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">200 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".phdc">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
 
-    </header>
-    <!--О нас-->
-    <div class="container about">
-        <div class="row">
-            <div class="col-md-12 title text-center">
-                <h1>Магазин китайского чая</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p>Мы рады представить в нашем магазине великолепный выбор настоящего китайского чая на любой вкус: пуэр, улуны, красный чай, а также элитный белый чай. Наравне с опытными ценителями китайской чайной традиции вы можете ощутить все богатство и пользу чая, собранного со всех уголков Китая. Мы сотрудничаем только с проверенными поставщиками чая из Китая, что делает цены более привлекательными и доступными. Наш магазин китайского чая позаботился о том, чтобы купить чай было максимально просто и удобно.</p>
-            </div>
-        </div>
-    </div>
-    <!--Фичи-->
-    <div class="container features hidden-sm hidden-xs">
-        <div class="row">
-            <div class="col-md-3 text-center">
-                <div class="thumbnail feature">
-                    <img src="./images/present.png" alt="Подарки">
-                    <div class="caption">
-                        <h4>Подарки</h4>
-                        <p>С каждым заказом, а также скидки постоянным покупателям.
-                            <br/>
-                            <br/>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="thumbnail feature">
-                    <img src="./images/trophy.png" alt="Качество">
-                    <div class="caption">
-                        <h4>Качество</h4>
-                        <p>Только натуральный чай без ароматизаторов от проверенных поставщиков.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="thumbnail feature">
-                    <img src="./images/recycle.png" alt="Экологичная упаковка">
-                    <div class="caption">
-                        <h4>Экологичная упаковка</h4>
-                        <p>Мы используем в нашей упаковке только натуральные материалы.
-                            <br/>
-                            <br/>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="thumbnail feature">
-                    <img src="images/dolly.png" alt="Доставка">
-                    <div class="caption">
-                        <h4>Доставка</h4>
-                        <p>От 300р в пределах МКАД. Самовывоз от метро Бульвар Дмитрия Донского - бесплатно.
-                            <br/>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Продукция-->
-    <div class="container container-filter">
-        <ul class="nav nav-pills">
-            <li class="filter" data-filter="all"><a>Все</a>
-            </li>
-            <li class="filter" data-filter=".category-1"><a>Улуны</a>
-            </li>
-            <li class="filter" data-filter=".category-2"><a>Белый чай</a>
-            </li>
-            <li class="filter" data-filter=".category-3"><a>Красный чай</a>
-            </li>
-            <li class="filter" data-filter=".category-4"><a>Пуэр Шу</a>
-            </li>
-            <li class="filter" data-filter=".category-5"><a>Пуэр Шен</a>
-            </li>
-            <li class="filter" data-filter=".category-6"><a>Зелёный чай</a>
-            </li>
-            <li class="filter" data-filter=".category-7">
-                <a></a>
-            </li>
-        </ul>
-    </div>
+					<div class="modal fade phdc" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Фэн Хуан Дань Цун</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/phenhuan.jpg" alt="Фэн Хуан Дань Цун">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Улун</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Уишань</li>
+									</ul>
+									<ul>
+										<li>50гр - 200 руб.</li>
+										<li>100гр - 400 руб.</li>
+									</ul>
+									<p>Феникс Дань Цун - это редкий улун с гор Феникс, провинции Гуандун. Мягкий, изысканный с ароматами персика, абрикоса и мёда, с невероятно долгим послевкусием. Выдерживает 4-6 проливов.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-left">200 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Фэн Хуан Дань Цун" data-price="200" data-quantity="1">&nbsp; В корзину&nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <!-- <section class="container product" id="Container"> -->
-       <div class="container product" id="Container"> 
-                       <div class="row">
-                           <div class="col-md-4 mix category-1">
-                               <div class="thumbnail item item">
-                                   <a href="#" data-toggle="modal" data-target=".phdc">
-                                       <img src="images/pdc.jpg" alt="Фэн Хуан Дань Цун" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       <h3 class="text-center"><a href="#" data-toggle="modal" data-target=".phdc">
-                                           Фэн Хуан Дань Цун
-                                           <br>(Чаочжоу Ча)
-                                       </a></h3>
-                                   </div>
-                           
-                                   <div class="modal fade phdc" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Фэн Хуан Дань Цун</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/phenhuan.jpg" alt="Фэн Хуан Дань Цун">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Улун</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Уишань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 200 руб.</li>
-                                                       <li>100гр - 400 руб.</li>
-                                                   </ul>
-                                                   <p>Феникс Дань Цун - это редкий улун с гор Феникс, провинции Гуандун. Мягкий, изысканный с ароматами персика, абрикоса и мёда, с невероятно долгим послевкусием. Выдерживает 4-6 проливов.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-left">200 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Фэн Хуан Дань Цун" data-price="200" data-quantity="1">
-                                              &nbsp; В корзину&nbsp;</a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-1">
-                               <div class="thumbnail item item">
-                                   <a href="#" data-toggle="modal" data-target=".dundin">
-                                       <img src="images/dundin-2.jpg" alt="Дундин" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".dundin">Дундин<br>(Тайваньский улун)
-                                            </a>
-                                          </h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade dundin" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Дундин</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/dundin.jpg" alt="Дундин">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Улун</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Тайвань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 200 руб.</li>
-                                                       <li>100гр - 400 руб.</li>
-                                                   </ul>
-                                                   <p>...</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-left">200 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Дундин" data-price="200" data-quantity="1">
-                                              &nbsp; В корзину&nbsp;</a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-1">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".dhp">
-                                       <img src="images/dhp.jpg" alt="Да Хун Пао" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".dhp">Да Хун Пао<br>(Средней прожарки)</a>
-                                          </h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade dhp" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Да Хун пао</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/dahun.jpg" alt="Да Хун пао">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Улун</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Уишань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 200руб.</li>
-                                                       <li>100гр - 400руб.</li>
-                                                   </ul>
-                                                   <p>Насыщенный чай со сладким привкусом, как у персикового компота с небольшим количеством темной патоки. После нескольких чашек, приятное цветочное послевкусие остается во рту, на несколько минут.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-left">200 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Да Хун Пао" data-price="200" data-quantity="1">
-                                              &nbsp; В корзину&nbsp;</a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
+			<div class="col-md-4 mix category-1">
+				<div class="thumbnail item item">
+					<a href="#" data-toggle="modal" data-target=".dundin">
+						<img src="images/dundin-2.jpg" alt="Дундин" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Дундин<br>(Тайваньский улун)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">200 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".dundin">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade dundin" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Дундин</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/dundin.jpg" alt="Дундин">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Улун</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Тайвань</li>
+									</ul>
+									<ul>
+										<li>50гр - 200 руб.</li>
+										<li>100гр - 400 руб.</li>
+									</ul>
+									<p>...</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-left">200 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Дундин" data-price="200" data-quantity="1">&nbsp; В корзину&nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                           <div class="col-md-4 mix category-1">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".tg">
-                                       <img src="images/tg.jpg" alt="Тегуаньинь" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".tg">Тегуаньинь<br>
-                                   (Весна 2014)
-                                 </a>
-                               </h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade tg" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Тегуаньинь</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/teg.jpg" alt="Тегуаньинь">
-                                               </div>
-                                               <div class="col-md-6">
-                           
-                                                   <ul>
-                                                       <li>Тип чая - Улун</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Аньси</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 180 руб.</li>
-                                                       <li>100гр - 360 руб.</li>
-                                                   </ul>
-                                                   <p>Весенний Тегуаньинь - один из самых известных улунов Китая из провиции Аньси. Его настой очень легкий, зеленовато-жёлтый. Прекрасный чай с устойчивым ароматами меда, сливочного масла и миндаля.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2  price text-center">180 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Тегуаньинь" data-price="180" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                           </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-6">
-                               <div class="thumbnail item item">
-                                   <a href="#" data-toggle="modal" data-target=".jasmine">
-                                       <img src="images/jasmine-2.jpg" alt="Дундин" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".jasmine">Хуа Лун Чжу<br>
-                                                   (Жасминовая жемчужина)
-                                                 </a>
-                                               </h3>
-                                   </div>
-                           
-                                   <div class="modal fade jasmine" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Жасминовая жемчужина</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/jasmine.jpg" alt="Жемчужина дракона">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Зелёный чай</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <!--<li>Производство - Уишань</li>-->
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 300 руб.</li>
-                                                       <li>100гр - 600 руб.</li>
-                                                   </ul>
-                                                   <p>Зелёный чай "Жасминовая жемчужина" с лепестакми жасмина</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-left">300руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Жасминовая жемчужина" data-price="300" data-qлantity="1">
-                                              &nbsp; В корзину&nbsp;
-                                           </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-md-4 mix category-6">
-                               <div class="thumbnail item item">
-                                   <a href="#" data-toggle="modal" data-target=".lunji">
-                                       <img src="images/lun-2.jpg" alt="Лун Цзин" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".lunji">Лун Цзин <br>(Колодец Дракона) </a>
-                                          </h3>
-                                   </div>
-                           
-                                   <div class="modal fade lunji" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Лун Цзин</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/lun.jpg" alt="Лунцзин">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Зелёный чай</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Чжэцзяну</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр -350 руб.</li>
-                                                       <li>100гр -700 руб.</li>
-                                                   </ul>
-                                                   <p>Колодец дракона с озера Си Ху</p>
-                                               </div>
-                           
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-left">350 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Лун Цзин" data-price="350" data-quantity="1">
-                                              &nbsp; В корзину&nbsp;
-                                           </a>
-                                                   </div>
-                                               </div>
-                           
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-6">
-                               <div class="thumbnail item item">
-                                   <a href="#" data-toggle="modal" data-target=".bilo">
-                                       <img src="images/bilochun-2.jpg" alt="Билочунь" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".bilo">Би Ло Чунь <br> (Провинция Цзянсу)</a></h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade bilo" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Би Ло Чунь</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/bilochun.jpg" alt="Билочунь">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Зелёный чай</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Цзянсу</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 300 руб.</li>
-                                                       <li>100гр - 600 руб.</li>
-                                                   </ul>
-                                                   <p>Би Ло Чунь</p>
-                                               </div>
-                           
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-left">300 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Би Ло Чунь" data-price="300" data-quantity="1">
-                                              &nbsp; В корзину&nbsp;
-                                           </a>
-                                                   </div>
-                                               </div>
-                           
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-md-4 mix category-2">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".silver">
-                                       <img src="images/silver.jpg" alt="Байхао Иньчжэнь" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".silver">Байхао Иньчжэнь<br>(Серебряные иглы)</a>
-                                          </h3>
-                                       
-                                   </div>
-                                   <div class="modal fade silver" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Бай Хао Инь Чжэнь</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/ite.jpg" alt="Фуцзянь">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Белый</li>
-                                                       <li>Кофеин - низкий</li>
-                                                       <li>Производство - Фуцзянь</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 700 руб.</li>
-                                                       <li>100гр - 1400 руб.</li>
-                                                   </ul>
-                                                   <p>Лучших из белых чаев. Наш Бай Хао Инь Чжэнь производится только из самых нежных бутонов чайного дерева. Он особенно цениться своим антиоксидантным и охлаждающим свойством. Держит до 8 проливов.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2  price text-center">700 руб.</div>
-                                                   <div class="col-md-2 ">
-                                                       <a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Байхао Иньчжэнь" data-price="700" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                           </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-md-4 mix category-2">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".bud">
-                                       <img src="images/yabao-2.jpg" alt="Байхао Иньчжэнь" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".bud">Я Бао<br>(Почки с пуэрный деревьев)</a>
-                                          </h3>
-                                       
-                                   </div>
-                                   <div class="modal fade bud" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Я Бао</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/yabao.jpg" alt="">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Белый</li>
-                                                       <li>Кофеин - низкий</li>
-                                                       <li>Производство - Юньнань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 250 руб.</li>
-                                                       <li>100гр - 500 руб.</li>
-                                                   </ul>
-                                                   <p>Почки с пуэрных деревьев</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2  price text-center">250 руб.</div>
-                                                   <div class="col-md-2 ">
-                                                       <a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Я Бао" data-price="250" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                           </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-3">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".gold">
-                                       <img src="images/golden.jpg" alt="Цзинь Цзюнь Мэй" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       <h3 class="text-center">
-                                        <a href="#" data-toggle="modal" data-target=".gold">Цзинь Цзюнь Мэй<br> (Золотые брови)</a>
-                                      </h3>
-                                   </div>
-                                   <div class="modal fade gold" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Цзинь Цзюнь Мэй</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/gold.jpg" alt="Цзинь Цзюнь Мэй">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Красный</li>
-                                                       <li>Кофеин - высокий</li>
-                                                       <!-- <li>Производство - ... </li> -->
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 250р руб.</li>
-                                                       <li>100гр - 500р руб.</li>
-                                                   </ul>
-                                                   <p>Чай победитель в Североамериканском чайном чемпионате! Его можно заваривать до семи раз, и вы не почувствоваете горький или неприятный вкус. Обратите внимание на вершину его вкуса в третьем проливе.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">250 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Цзинь Цзюнь Мэй" data-price="250" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                           </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-4">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".lao">
-                                       <img src="images/toucha.jpg" alt="Пуэр Лао Ча Ту" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                        <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".lao">Пуэр Лао Ча Ту 1999 г<br>
-                                           (Старые чайные головы)
-                                         </a>
-                                       </h3>
-                                   </div>
-                           
-                                   <div class="modal fade lao" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Пуэр Лао Ча Ту 1999 г</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/lacha.jpg" alt="Пуэр Лао Ча Ту">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шу пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <li>50гр - 250р</li>
-                                                       <li>100гр - 500р</li>
-                                                   </ul>
-                                                   <p>В процессе ферментации некоторые чайные листья под действием жара и компрессии образуют такие самородки. Вкус - сливовый с легкими нотками фруктов. Выдерживает до 10 проливов.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">250 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Пуэр Лао Ча Ту" data-price="250" data-quantity="1">
-                                                           &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-4">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".7572">
-                                       <img src="images/7572.jpg" alt="Шу Пуэр Мэнхай 7572" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".7572">
-                                              Шу Пуэр Мэнхай Да И 7572 <br>(2012 г)
-                                          </a>
-                                          </h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade 7572" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шу Пуэр Мэнхай Да И 7572</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/men7572.jpg" alt="Шу Пуэр Мэнхай Да И 7572">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шу пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань, завод Мэнхай</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>357гр (блин) - 1400р</li>
-                                                   </ul>
-                                                   <p>Богатый насыщенный чай, который является эталоном вкуса. Производиться по классическому рецепу 1975 года. Вкус насыщенный, густой, древесно-дубовый с нотками чернослива.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">1400 руб.</div>
-                                                   <div class="col-md-2 button-cart">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="7572 Шу Пуэр " data-price="1400" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-5">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".7542">
-                                       <img src="images/7542-2.jpg" alt="Шу Пуэр Мэнхай 7542" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".7542">Шен Пуэр Мэнхай Да И 7542 <br>(2011 г)
-                                          </a>
-                                        </h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade 7542" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шен Пуэр Мэнхай Да И 7542</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/7542-2.jpg" alt="Шен Пуэр Мэнхай Да И 7542">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шен пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань, завод Мэнхай</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>357гр (блин) - 1300 руб.</li>
-                                                   </ul>
-                                                   <p>Богатый насыщенный чай, который является эталоном вкуса. Производиться по классическому рецепу 1975 года. Вкус насыщенный, густой, древесно-дубовый с нотками чернослива.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">1300 руб.</div>
-                                                   <div class="col-md-2 button-cart">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="7542 Шен Пуэр " data-price="1300" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-4">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".melody">
-                                       <img src="images/shuMen.jpg" alt="Шу пуэр завода Менхай" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".melody">
-                                            Шу Пуэр Да И "Хун Юнь Юань"<br>(2010 г)
-                                           </a>
-                                         </h3>
-                                   </div>
-                           
-                                   <div class="modal fade melody" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шу Пуэр Да И "Хун Юнь Юань" <br>(Красная мелодия)</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/red-melody.jpg" alt="Шу Пуэр Да И ">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шу пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань, завод Мэнхай</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>100гр (блин) - 850 руб.</li>
-                                                   </ul>
-                                                   <p>Изящно сбалансированный, ровный, богатый и темный, со слегка сладким вкусом мёда полевых цветов. Глубокие, сильные первые ноты земли и мха с затяжным черносливовым послевкусием.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2  price text-center">850 руб.</div>
-                                                   <div class="col-md-2 ">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шу пуэр Красная Мелодия" data-price="0" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-4">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".old">
-                                       <img src="images/shu00.jpg" alt="Шу пуэр Мудрый Старик" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                           <h3 class="text-center">
-                                            <a href="#" data-toggle="modal" data-target=".old">
-                                              Шу пуэр "Мудрый Старик"<br>(2000 г)
-                                            </a></h3>
-                                   </div>
-                           
-                                   <div class="modal fade old" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шу пуэр Лаошу "Мудрый Старик"</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/oldman.jpg" alt="Шу пуэр Лаошу ">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шу пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>250гр (кирпич) - 560 руб.</li>
-                                                   </ul>
-                                                   <p>Как и хорошее вино, этот чай взрослеет со временем. Мягкий, глубокий пуэр с приятным сладковатым вкусом и древесным ароматом. Отлично держит до 10 проливов и даже больше.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">560 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шу пуэр Мудрый Старик" data-price="560" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-md-4 mix category-5">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".shen-menku">
-                                       <img src="images/menku-shen.jpg" alt="Шен пуэр со старых деревьев" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       <h3 class="text-center">
-                                        <a href="#" data-toggle="modal" data-target=".tree">
-                                        Шен пуэр Менку<br>(2007 г)
-                                               </a></h3>
-                                   </div>
-                           
-                                   <div class="modal fade shen-menku" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шен пуэр Менку</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/DSCN1374.jpg" alt="Шен пуэр Менку">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шен пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань, завод Менку</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>145гр (блин) - 1000 руб.</li>
-                                                   </ul>
-                                                   <p>Шен пуэр завода Менку 2007г.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">1000 руб.</div>
-                                                   <div class="col-md-2 ">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шен пуэр Менку" data-price="1000" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                           
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-5">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".tree">
-                                       <img src="images/shen10.jpg" alt="Шен пуэр со старых деревьев" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       <h3 class="text-center"><a href="#" data-toggle="modal" data-target=".tree">Шен пуэр со старых деревьев <br>(2011 г)
-                                        </a></h3>
-                                   </div>
-                           
-                                   <div class="modal fade tree" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шен пуэр со старых деревьев</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/tree.jpg" alt="Шен пуэр со старых деревьев">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шен пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>200гр (блин) - 600 руб.</li>
-                                                   </ul>
-                                                   <p>Листья с деревьев возрастом от 90 и до 120 лет. Богатый аромат с оттенками мёда и сосновой смолы. Сильный вкус с нотками сладости и сильными привкусом орехов. Выдерживает 7-10 проливов.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">600 руб.</div>
-                                                   <div class="col-md-2 ">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Пуэр со старых деревьев" data-price="600" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                           
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-5">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".shen">
-                                       <img src="images/shen11.jpg" alt="Шен пуэр" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center"><a href="#" data-toggle="modal" data-target=".shen">Шен пуэр<br>(2010 г)</a></h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade shen" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шен пуэр</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/shenpuer.jpg" alt="Шен пуэр">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шен пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>357гр (блин) - 600р</li>
-                                                   </ul>
-                                                   <p>Чай дает травянистый настой, с фруктовыми нотками абрикоса, а также сложный цветочный аромат. Золотисто-желтый напиток, имеет насыщенный, богатый вкус, который длится удивительно долго.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2  price text-center">600 руб.</div>
-                                                   <div class="col-md-2 ">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шен пуэр 2010" data-price="600" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-4">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".v93">
-                                       <img src="images/v93.jpg" alt="Шу пуэр V93" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       <h3 class="text-center"><a href="#" data-toggle="modal" data-target=".v93">Шу пуэр V93<br>(2010 г)</a></h3>
-                                   </div>
-                           
-                                   <div class="modal fade v93" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шу пуэр V93</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/v93.jpg" alt="">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шу пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>100гр (точа) - 650р</li>
-                                                   </ul>
-                                                   <p>Классическая смесь, рецепт с 1993 года, чай был изготовлен на фабрике Menghai и завоевал первое место на 13 Tea Expo в Шанхае. Рецепт V93 в настоящее время стал стандартом совершенства для Шу Пуэров.</p>
-                                               </div>
-                                               
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">670 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шу пуэр V93" data-price="650" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-5">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".918">
-                                       <img src="images/918-2.jpg" alt="Шен пуэр" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center"><a href="#" data-toggle="modal" data-target=".918">Шен пуэр 918<br>(2012 г)</a></h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade 918" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шен пуэр 918</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/918.jpg" alt="Шен пуэр">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шен пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань, Хайвань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>200гр (блин) - 800 руб.</li>
-                                                   </ul>
-                                                   <p>Шен пуэр 918. Производство - Юньнань, Хайвань</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2  price text-center">800 руб.</div>
-                                                   <div class="col-md-2 ">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шен пуэр 918" data-price="800" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-4">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".908">
-                                       <img src="images/908-2.jpg" alt="Шу пуэр" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       
-                                           <h3 class="text-center"><a href="#" data-toggle="modal" data-target=".908">Шу пуэр 908<br>(2012 г)</a></h3>
-                                       
-                                   </div>
-                           
-                                   <div class="modal fade 908" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шу пуэр 908</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/908.jpg" alt="Шу пуэр">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шу пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань, Хайвань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>200гр (блин) - 770 руб.</li>
-                                                   </ul>
-                                                   <p>Шу пуэр 908. Производство - Юньнань, Хайвань</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2  price text-center">770 руб.</div>
-                                                   <div class="col-md-2 ">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шу пуэр 908" data-price="770" data-quantity="1">
-                                              &nbsp; В корзину &nbsp;
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                           <div class="col-md-4 mix category-4">
-                               <div class="thumbnail item">
-                                   <a href="#" data-toggle="modal" data-target=".phen">
-                                       <img src="images/phen.jpg" alt="Шу пуэр Феникс" width="300" height="300" class="img-circle">
-                                   </a>
-                                   <div class="caption">
-                                       <h3 class="text-center"><a href="#" data-toggle="modal" data-target=".phen">Шу пуэр Феникс<br>(2012 г)</a></h3>
-                                   </div>
-                           
-                                   <div class="modal fade phen" tabindex="-1" role="dialog"  aria-hidden="true">
-                                       <div class="modal-dialog modal-lg">
-                                           <div class="modal-content">
-                                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
-                                               </button>
-                                               <div class="col-md-12">
-                                                   <h2>Шу пуэр Феникс</h2>
-                                               </div>
-                                               <div class="col-md-6 ">
-                                                   <img src="images/pheonix.jpg" alt="Шу пуэр Феникс">
-                                               </div>
-                                               <div class="col-md-6">
-                                                   <ul>
-                                                       <li>Тип чая - Шу пуэр</li>
-                                                       <li>Кофеин - умеренный</li>
-                                                       <li>Производство - Юньнань</li>
-                                                   </ul>
-                                                   <ul>
-                                                       <!-- <li>10гр - 350р</li> -->
-                                                       <li>100гр (точа) - 550р</li>
-                                                   </ul>
-                                                   <p>Пуэр имеет умеренный вкус, со сладким послевкусием, но не такой сильный, как черный чай. Это идеальный напиток для здоровья, так как способствует нормализации обмена веществ, сжиганию жира.</p>
-                                               </div>
-                                               <div class="row">
-                                                   <div class="col-md-2 price text-center">550 руб.</div>
-                                                   <div class="col-md-2">
-                                                       <a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Феникс шу" data-price="550" data-quantity="1">
-                                              &nbsp; В корзину
-                                                       </a>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-           </div>
-               <!--Подвал-->
-    <div class="container footer">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p><span class="glyphicon glyphicon-earphone"></span>&#160; &#160;<a class="phone-bottom" href="tel:+79057274650">+7 (905) 727-46-50</a>&nbsp;&nbsp;&nbsp;Читайте и подписывайтесь на нас в <a href="https://vk.com/cha_hao" target="_blank">VK</a>&nbsp;2014, Москва.
-                    <br>Дизайн и разработка сайта <a href="http://brainstorage.me/benny214">V.Tumanov </a>
-                </p>
-                <div class="col-md-12">
-                                 
-                      <!-- Yandex.Metrika informer -->
-                      <a href="https://metrika.yandex.ru/stat/?id=26923662&amp;from=informer" target="_blank" rel="nofollow">
-                          <img src="//bs.yandex.ru/informer/26923662/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:26923662,lang:'ru'});return false}catch(e){}" />
-                      </a>
-                      <!-- /Yandex.Metrika informer -->
-                      <!-- Yandex.Metrika counter -->
-                      <script type="text/javascript">
-                          (function (d, w, c) {
-                              (w[c] = w[c] || []).push(function () {
-                                  try {
-                                      w.yaCounter26923662 = new Ya.Metrika({
-                                          id: 26923662,
-                                          clickmap: true,
-                                          trackLinks: true,
-                                          accurateTrackBounce: true
-                                      });
-                                  } catch (e) {}
-                              });
-                              var n = d.getElementsByTagName("script")[0],
-                                  s = d.createElement("script"),
-                                  f = function () {
-                                      n.parentNode.insertBefore(s, n);
-                                  };
-                              s.type = "text/javascript";
-                              s.async = true;
-                              s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-                              if (w.opera == "[object Opera]") {
-                                  d.addEventListener("DOMContentLoaded", f, false);
-                              } else {
-                                  f();
-                              }
-                          })(document, window, "yandex_metrika_callbacks");
-                      </script>
-                      <noscript>
-                          <div>
-                              <img src="//mc.yandex.ru/watch/26923662" style="position:absolute; left:-9999px;" alt="" />
-                          </div>
-                      </noscript>
-                      <!-- /Yandex.Metrika counter -->
-                              </div>
-                                <div class="col-md-12">
-                                  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			<div class="col-md-4 mix category-1">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".dhp">
+						<img src="images/dhp.jpg" alt="Да Хун Пао" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Да Хун Пао<br>(Средней прожарки)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">
+								200 &#8381;
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".dhp">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
 
-  ga('create', 'UA-57659598-1', 'auto');
-  ga('send', 'pageview');
+					<div class="modal fade dhp" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Да Хун пао</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/dahun.jpg" alt="Да Хун пао">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Улун</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Уишань</li>
+									</ul>
+									<ul>
+										<li>50гр - 200руб.</li>
+										<li>100гр - 400руб.</li>
+									</ul>
+									<p>Насыщенный чай со сладким привкусом, как у персикового компота с небольшим количеством темной патоки. После нескольких чашек, приятное цветочное послевкусие остается во рту, на несколько минут.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-left">200 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Да Хун Пао" data-price="200" data-quantity="1">&nbsp; В корзину&nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-</script>
-                                </div>
-                   </div>       </div>
-    </div>
+			<div class="col-md-4 mix category-1">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".tg">
+						<img src="images/tg.jpg" alt="Тегуаньинь" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Тегуаньинь<br>(Весна 2014)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">180 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".tg">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
 
-    <a id="back-to-top" class="btn btn-hot btn-lg back-to-top" role="button" title="Кликните, чтоб поднятся наверх" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+					<div class="modal fade tg" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Тегуаньинь</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/teg.jpg" alt="Тегуаньинь">
+								</div>
+								<div class="col-md-6">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+									<ul>
+										<li>Тип чая - Улун</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Аньси</li>
+									</ul>
+									<ul>
+										<li>50гр - 180 руб.</li>
+										<li>100гр - 360 руб.</li>
+									</ul>
+									<p>Весенний Тегуаньинь - один из самых известных улунов Китая из провиции Аньси. Его настой очень легкий, зеленовато-жёлтый. Прекрасный чай с устойчивым ароматами меда, сливочного масла и миндаля.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2  price text-center">180 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Тегуаньинь" data-price="180" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/common.js"></script>
-    <script src="js/jquery.mixitup.js"></script>
-    <script>
-        cartjs.initialize({
-            emailOrdersTo: 'benny.moralez@gmail.com',
+			<div class="col-md-4 mix category-6">
+				<div class="thumbnail item item">
+					<a href="#" data-toggle="modal" data-target=".jasmine">
+						<img src="images/jasmine-2.jpg" alt="Дундин" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Хуа Лун Чжу<br>(Жасминовая жемчужина)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">300 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".jasmine">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="modal fade jasmine" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Жасминовая жемчужина</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/jasmine.jpg" alt="Жемчужина дракона">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Зелёный чай</li>
+										<li>Кофеин - умеренный</li>
+										<!--<li>Производство - Уишань</li>-->
+									</ul>
+									<ul>
+										<li>50гр - 300 руб.</li>
+										<li>100гр - 600 руб.</li>
+									</ul>
+									<p>Зелёный чай "Жасминовая жемчужина" с лепестакми жасмина</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-left">300руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Жасминовая жемчужина" data-price="300" data-quantity="1">&nbsp; В корзину&nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-            language: 'russian',
-            currency: 'руб',
-            requireName: true,
-            requirePhone: true,
-            requireEmail: false,
-            requireAddress: false,
-        })
-    </script>
+			<div class="col-md-4 mix category-6">
+				<div class="thumbnail item item">
+					<a href="#" data-toggle="modal" data-target=".lunji">
+						<img src="images/lun-2.jpg" alt="Лун Цзин" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Лун Цзин <br>(Колодец Дракона)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">350 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".lunji">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
 
+					<div class="modal fade lunji" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Лун Цзин</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/lun.jpg" alt="Лунцзин">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Зелёный чай</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Чжэцзяну</li>
+									</ul>
+									<ul>
+										<li>50гр -350 руб.</li>
+										<li>100гр -700 руб.</li>
+									</ul>
+									<p>Колодец дракона с озера Си Ху</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-left">350 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Лун Цзин" data-price="350" data-quantity="1">&nbsp; В корзину&nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-6">
+				<div class="thumbnail item item">
+					<a href="#" data-toggle="modal" data-target=".bilo">
+						<img src="images/bilochun-2.jpg" alt="Билочунь" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Би Ло Чунь <br> (Провинция Цзянсу)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">300 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".bilo">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="modal fade bilo" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Би Ло Чунь</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/bilochun.jpg" alt="Билочунь">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Зелёный чай</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Цзянсу</li>
+									</ul>
+									<ul>
+										<li>50гр - 300 руб.</li>
+										<li>100гр - 600 руб.</li>
+									</ul>
+									<p>Би Ло Чунь</p>
+								</div>
+
+								<div class="row">
+									<div class="col-md-2 price text-left">300 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Би Ло Чунь" data-price="300" data-quantity="1">&nbsp; В корзину&nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-2">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".silver">
+						<img src="images/silver.jpg" alt="Байхао Иньчжэнь" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Байхао Иньчжэнь<br>(Серебряные иглы)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">700 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".silver">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade silver" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Бай Хао Инь Чжэнь</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/ite.jpg" alt="Фуцзянь">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Белый</li>
+										<li>Кофеин - низкий</li>
+										<li>Производство - Фуцзянь</li>
+									</ul>
+									<ul>
+										<li>50гр - 700 руб.</li>
+										<li>100гр - 1400 руб.</li>
+									</ul>
+									<p>Лучших из белых чаев. Наш Бай Хао Инь Чжэнь производится только из самых нежных бутонов чайного дерева. Он особенно цениться своим антиоксидантным и охлаждающим свойством. Держит до 8 проливов.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2  price text-center">700 руб.</div>
+									<div class="col-md-2 ">
+										<a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Байхао Иньчжэнь" data-price="700" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-2">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".bud">
+						<img src="images/yabao-2.jpg" alt="Байхао Иньчжэнь" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Я Бао<br>(Почки с пуэрный деревьев)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">250 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".bud">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade bud" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Я Бао</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/yabao.jpg" alt="">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Белый</li>
+										<li>Кофеин - низкий</li>
+										<li>Производство - Юньнань</li>
+									</ul>
+									<ul>
+										<li>50гр - 250 руб.</li>
+										<li>100гр - 500 руб.</li>
+									</ul>
+									<p>Почки с пуэрных деревьев</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2  price text-center">250 руб.</div>
+									<div class="col-md-2 ">
+										<a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Я Бао" data-price="250" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-3">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".gold">
+						<img src="images/golden.jpg" alt="Цзинь Цзюнь Мэй" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Цзинь Цзюнь Мэй<br> (Золотые брови)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">250 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".gold">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade gold" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Цзинь Цзюнь Мэй</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/gold.jpg" alt="Цзинь Цзюнь Мэй">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Красный</li>
+										<li>Кофеин - высокий</li>
+										<!-- <li>Производство - ... </li> -->
+									</ul>
+									<ul>
+										<li>50гр - 250р руб.</li>
+										<li>100гр - 500р руб.</li>
+									</ul>
+									<p>Чай победитель в Североамериканском чайном чемпионате! Его можно заваривать до семи раз, и вы не почувствоваете горький или неприятный вкус. Обратите внимание на вершину его вкуса в третьем проливе.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">250 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Цзинь Цзюнь Мэй" data-price="250" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-4">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".lao">
+						<img src="images/toucha.jpg" alt="Пуэр Лао Ча Ту" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Пуэр Лао Ча Ту 1999 г<br>(Старые чайные головы)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">250 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".lao">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade lao" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Пуэр Лао Ча Ту 1999 г</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/lacha.jpg" alt="Пуэр Лао Ча Ту">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шу пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань</li>
+									</ul>
+									<ul>
+										<li>50гр - 250р</li>
+										<li>100гр - 500р</li>
+									</ul>
+									<p>В процессе ферментации некоторые чайные листья под действием жара и компрессии образуют такие самородки. Вкус - сливовый с легкими нотками фруктов. Выдерживает до 10 проливов.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">250 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot added text-uppercase btn-lg" data-name="Пуэр Лао Ча Ту" data-price="250" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-4">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".7572">
+						<img src="images/7572.jpg" alt="Шу Пуэр Мэнхай 7572" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шу Пуэр Мэнхай Да И 7572 <br>(2012 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">1400 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".7572">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade 7572" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шу Пуэр Мэнхай Да И 7572</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/men7572.jpg" alt="Шу Пуэр Мэнхай Да И 7572">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шу пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань, завод Мэнхай</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>357гр (блин) - 1400р</li>
+									</ul>
+									<p>Богатый насыщенный чай, который является эталоном вкуса. Производиться по классическому рецепу 1975 года. Вкус насыщенный, густой, древесно-дубовый с нотками чернослива.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">1400 руб.</div>
+									<div class="col-md-2 button-cart">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="7572 Шу Пуэр " data-price="1400" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-5">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".7542">
+						<img src="images/7542-2.jpg" alt="Шу Пуэр Мэнхай 7542" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шен Пуэр Мэнхай Да И 7542 <br>(2011 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">1300 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".7542">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade 7542" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шен Пуэр Мэнхай Да И 7542</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/7542-2.jpg" alt="Шен Пуэр Мэнхай Да И 7542">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шен пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань, завод Мэнхай</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>357гр (блин) - 1300 руб.</li>
+									</ul>
+									<p>Богатый насыщенный чай, который является эталоном вкуса. Производиться по классическому рецепу 1975 года. Вкус насыщенный, густой, древесно-дубовый с нотками чернослива.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">1300 руб.</div>
+									<div class="col-md-2 button-cart">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="7542 Шен Пуэр " data-price="1300" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-4">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".melody">
+						<img src="images/shuMen.jpg" alt="Шу пуэр завода Менхай" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шу Пуэр Да И "Хун Юнь Юань"<br>(2010 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">850 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".melody">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade melody" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шу Пуэр Да И "Хун Юнь Юань" <br>(Красная мелодия)</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/red-melody.jpg" alt="Шу Пуэр Да И ">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шу пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань, завод Мэнхай</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>100гр (блин) - 850 руб.</li>
+									</ul>
+									<p>Изящно сбалансированный, ровный, богатый и темный, со слегка сладким вкусом мёда полевых цветов. Глубокие, сильные первые ноты земли и мха с затяжным черносливовым послевкусием.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2  price text-center">850 руб.</div>
+									<div class="col-md-2 ">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шу пуэр Красная Мелодия" data-price="0" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-4">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".old">
+						<img src="images/shu00.jpg" alt="Шу пуэр Мудрый Старик" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шу пуэр "Мудрый Старик"<br>(2000 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">560 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".old">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade old" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шу пуэр Лаошу "Мудрый Старик"</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/oldman.jpg" alt="Шу пуэр Лаошу ">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шу пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>250гр (кирпич) - 560 руб.</li>
+									</ul>
+									<p>Как и хорошее вино, этот чай взрослеет со временем. Мягкий, глубокий пуэр с приятным сладковатым вкусом и древесным ароматом. Отлично держит до 10 проливов и даже больше.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">560 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шу пуэр Мудрый Старик" data-price="560" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-5">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".shen-menku">
+						<img src="images/menku-shen.jpg" alt="Шен пуэр со старых деревьев" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шен пуэр Менку<br>(2007 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">1000 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".shen-menku">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade shen-menku" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шен пуэр Менку</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/DSCN1374.jpg" alt="Шен пуэр Менку">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шен пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань, завод Менку</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>145гр (блин) - 1000 руб.</li>
+									</ul>
+									<p>Шен пуэр завода Менку 2007г.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">1000 руб.</div>
+									<div class="col-md-2 ">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шен пуэр Менку" data-price="1000" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-5">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".tree">
+						<img src="images/shen10.jpg" alt="Шен пуэр со старых деревьев" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шен пуэр со старых деревьев <br>(2011 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">600 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".tree">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade tree" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шен пуэр со старых деревьев</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/tree.jpg" alt="Шен пуэр со старых деревьев">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шен пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>200гр (блин) - 600 руб.</li>
+									</ul>
+									<p>Листья с деревьев возрастом от 90 и до 120 лет. Богатый аромат с оттенками мёда и сосновой смолы. Сильный вкус с нотками сладости и сильными привкусом орехов. Выдерживает 7-10 проливов.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">600 руб.</div>
+									<div class="col-md-2 ">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Пуэр со старых деревьев" data-price="600" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-5">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".shen">
+						<img src="images/shen11.jpg" alt="Шен пуэр" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шен пуэр<br>(2010 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">600 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".shen">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade shen" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шен пуэр</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/shenpuer.jpg" alt="Шен пуэр">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шен пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>357гр (блин) - 600р</li>
+									</ul>
+									<p>Чай дает травянистый настой, с фруктовыми нотками абрикоса, а также сложный цветочный аромат. Золотисто-желтый напиток, имеет насыщенный, богатый вкус, который длится удивительно долго.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2  price text-center">600 руб.</div>
+									<div class="col-md-2 ">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шен пуэр 2010" data-price="600" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-4">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".v93">
+						<img src="images/v93.jpg" alt="Шу пуэр V93" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шу пуэр V93<br>(2010 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">650 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".v93">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade v93" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шу пуэр V93</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/v93.jpg" alt="">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шу пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>100гр (точа) - 650р</li>
+									</ul>
+									<p>Классическая смесь, рецепт с 1993 года, чай был изготовлен на фабрике Menghai и завоевал первое место на 13 Tea Expo в Шанхае. Рецепт V93 в настоящее время стал стандартом совершенства для Шу Пуэров.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">650 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шу пуэр V93" data-price="650" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-5">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".918">
+						<img src="images/918-2.jpg" alt="Шен пуэр" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шен пуэр 918<br>(2012 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">800 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".918">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div> 
+					</div>
+
+					<div class="modal fade 918" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шен пуэр 918</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/918.jpg" alt="Шен пуэр">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шен пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань, Хайвань</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>200гр (блин) - 800 руб.</li>
+									</ul>
+									<p>Шен пуэр 918. Производство - Юньнань, Хайвань</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2  price text-center">800 руб.</div>
+									<div class="col-md-2 ">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шен пуэр 918" data-price="800" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-4">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".908">
+						<img src="images/908-2.jpg" alt="Шу пуэр" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шу пуэр 908<br>(2012 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">770 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".908">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div> 
+					</div>
+
+					<div class="modal fade 908" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шу пуэр 908</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/908.jpg" alt="Шу пуэр">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шу пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань, Хайвань</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>200гр (блин) - 770 руб.</li>
+									</ul>
+									<p>Шу пуэр 908. Производство - Юньнань, Хайвань</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">770 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Шу пуэр 908" data-price="770" data-quantity="1">&nbsp; В корзину &nbsp;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mix category-4">
+				<div class="thumbnail item">
+					<a href="#" data-toggle="modal" data-target=".phen">
+						<img src="images/phen.jpg" alt="Шу пуэр Феникс" width="300" height="300" class="img-circle">
+					</a>
+					<div class="caption">
+						<h3 class="text-center">Шу пуэр Феникс<br>(2012 г)</h3>
+						<div class="row">
+							<div class="col-md-6 col-xs-6 price-main text-center">550 &#8381;</div>
+							<div class="col-md-6 col-xs-6">
+								<button class="btn btn-hot" data-toggle="modal" data-target=".phen">&nbsp;Подробнее &nbsp;</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade phen" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+								</button>
+								<div class="col-md-12">
+									<h2>Шу пуэр Феникс</h2>
+								</div>
+								<div class="col-md-6 ">
+									<img src="images/pheonix.jpg" alt="Шу пуэр Феникс">
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>Тип чая - Шу пуэр</li>
+										<li>Кофеин - умеренный</li>
+										<li>Производство - Юньнань</li>
+									</ul>
+									<ul>
+										<!-- <li>10гр - 350р</li> -->
+										<li>100гр (точа) - 550р</li>
+									</ul>
+									<p>Пуэр имеет умеренный вкус, со сладким послевкусием, но не такой сильный, как черный чай. Это идеальный напиток для здоровья, так как способствует нормализации обмена веществ, сжиганию жира.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-2 price text-center">550 руб.</div>
+									<div class="col-md-2">
+										<a class="cart-buy-button btn btn-hot text-uppercase btn-lg" data-name="Феникс шу" data-price="550" data-quantity="1">&nbsp; В корзину</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div><!--End row-->
+	</div><!--End Container product-->
+	<!--Подвал-->
+	<div class="container footer">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p><span class="glyphicon glyphicon-earphone"></span>&#160; &#160;<a class="phone-bottom" href="tel:+79057274650">+7 (905) 727-46-50</a>&nbsp;&nbsp;&nbsp;Читайте и подписывайтесь на нас в <a href="https://vk.com/cha_hao" target="_blank">VK</a>&nbsp;2014, Москва.
+					<br>Дизайн и разработка сайта <a href="http://brainstorage.me/benny214">V.Tumanov </a>
+				</p>
+				<div class="col-md-12">
+					<!-- Yandex.Metrika informer -->
+					<a href="https://metrika.yandex.ru/stat/?id=26923662&amp;from=informer" target="_blank" rel="nofollow">
+						<img src="//bs.yandex.ru/informer/26923662/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:26923662,lang:'ru'});return false}catch(e){}" />
+					</a>
+					<!-- /Yandex.Metrika informer -->
+					<!-- Yandex.Metrika counter -->
+					<script type="text/javascript">
+						(function (d, w, c) {
+							(w[c] = w[c] || []).push(function () {
+								try {
+									w.yaCounter26923662 = new Ya.Metrika({
+										id: 26923662,
+										clickmap: true,
+										trackLinks: true,
+										accurateTrackBounce: true
+									});
+								} catch (e) {}
+							});
+							var n = d.getElementsByTagName("script")[0],
+								s = d.createElement("script"),
+								f = function () {
+									n.parentNode.insertBefore(s, n);
+								};
+							s.type = "text/javascript";
+							s.async = true;
+							s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+							if (w.opera == "[object Opera]") {
+								d.addEventListener("DOMContentLoaded", f, false);
+							} else {
+								f();
+							}
+						})(document, window, "yandex_metrika_callbacks");
+					</script>
+					<noscript>
+						<div>
+							<img src="//mc.yandex.ru/watch/26923662" style="position:absolute; left:-9999px;" alt="" />
+						</div>
+					</noscript>
+					<!-- /Yandex.Metrika counter -->
+				</div>
+				<div class="col-md-12">
+					<script>
+						(function (i, s, o, g, r, a, m) {
+							i['GoogleAnalyticsObject'] = r;
+							i[r] = i[r] || function () {
+								(i[r].q = i[r].q || []).push(arguments)
+							}, i[r].l = 1 * new Date();
+							a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+							a.async = 1;
+							a.src = g;
+							m.parentNode.insertBefore(a, m)
+						})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+						ga('create', 'UA-57659598-1', 'auto');
+						ga('send', 'pageview');
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a id="back-to-top" class="btn btn-hot btn-lg back-to-top" role="button" title="Кликните, чтоб поднятся наверх" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/jquery.mixitup.js"></script>
+	<script>
+		cartjs.initialize({
+			emailOrdersTo: 'benny.moralez@gmail.com',
+			language: 'russian',
+			currency: 'руб',
+			requireName: true,
+			requirePhone: true,
+			requireEmail: false,
+			requireAddress: false,
+		});
+	</script>
+	<style>
+		.bootstrap-widget .popover {
+			margin-left: -10px !important;
+			position: fixed;
+		}
+		.bootstrap-widget .popover .arrow {
+			margin-left: 10px !important;
+			position: fixed;
+		}
+	</style>
 </body>
 
 </html>
